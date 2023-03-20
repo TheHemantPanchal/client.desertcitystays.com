@@ -241,7 +241,7 @@
 
         $response = false;
         //Disabled the emails to Landloards by overwriting it
-        $to = "me@thehemantpanchal.com";
+        //$to = "me@thehemantpanchal.com";
         
         // Always set content-type when sending HTML email
         $headers = "MIME-Version: 1.0" . "\r\n";
