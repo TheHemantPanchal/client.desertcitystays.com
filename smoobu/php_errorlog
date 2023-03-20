@@ -1,0 +1,48 @@
+[01-Nov-2022 19:52:32 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/customer/www/client.desertcitystays.com/smoobu/connect-smoobu.php on line 37
+[01-Nov-2022 20:28:31 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/customer/www/client.desertcitystays.com/smoobu/connect-smoobu.php on line 43
+[01-Nov-2022 20:47:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function variable_name() in /home/customer/www/client.desertcitystays.com/smoobu/connect-smoobu.php:83
+Stack trace:
+#0 /home/customer/www/client.desertcitystays.com/smoobu/connect-smoobu.php(55): check_empty(NULL)
+#1 {main}
+  thrown in /home/customer/www/client.desertcitystays.com/smoobu/connect-smoobu.php on line 83
+[01-Nov-2022 21:17:26 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function save_booking_data(), 1 passed in /home/customer/www/client.desertcitystays.com/smoobu/connect-smoobu.php on line 75 and exactly 2 expected in /home/customer/www/client.desertcitystays.com/smoobu/connect-smoobu.php:96
+Stack trace:
+#0 /home/customer/www/client.desertcitystays.com/smoobu/connect-smoobu.php(75): save_booking_data(Array)
+#1 {main}
+  thrown in /home/customer/www/client.desertcitystays.com/smoobu/connect-smoobu.php on line 96
+[02-Nov-2022 21:34:06 UTC] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/client.desertcitystays.com/smoobu/mail.php on line 2
+[02-Nov-2022 21:34:52 UTC] PHP Fatal error:  require(): Failed opening required '/usr/local/php74/pear/autoload.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/client.desertcitystays.com/smoobu/mail.php on line 2
+[02-Nov-2022 21:35:14 UTC] PHP Fatal error:  require(): Failed opening required './usr/local/php74/pear/autoload.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/client.desertcitystays.com/smoobu/mail.php on line 2
+[02-Nov-2022 21:35:39 UTC] PHP Fatal error:  require(): Failed opening required '.:/usr/local/php74/pear/autoload.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/client.desertcitystays.com/smoobu/mail.php on line 2
+[02-Nov-2022 21:35:56 UTC] PHP Fatal error:  require(): Failed opening required 'usr/local/php74/pear/autoload.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/client.desertcitystays.com/smoobu/mail.php on line 2
+[02-Nov-2022 21:38:12 UTC] PHP Fatal error:  require(): Failed opening required '/usr/local/php74/pear/vendor/autoload.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/client.desertcitystays.com/smoobu/mail.php on line 2
+[02-Nov-2022 21:38:30 UTC] PHP Fatal error:  require(): Failed opening required ':/usr/local/php74/pear/vendor/autoload.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/client.desertcitystays.com/smoobu/mail.php on line 2
+[05-Nov-2022 18:39:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_booking_details_for_ll(), 1 passed in /home/customer/www/client.desertcitystays.com/smoobu/test.php on line 7 and exactly 2 expected in /home/customer/www/client.desertcitystays.com/smoobu/functions.php:194
+Stack trace:
+#0 /home/customer/www/client.desertcitystays.com/smoobu/test.php(7): get_booking_details_for_ll(2)
+#1 {main}
+  thrown in /home/customer/www/client.desertcitystays.com/smoobu/functions.php on line 194
+[25-Dec-2022 19:34:36 Asia/Dubai] PHP Fatal error:  Uncaught Error: Only variables can be passed by reference in /home/customer/www/client.desertcitystays.com/smoobu/functions.php:36
+Stack trace:
+#0 /home/customer/www/client.desertcitystays.com/smoobu/connect-smoobu.php(80): save_booking_data(Object(mysqli), Array)
+#1 {main}
+  thrown in /home/customer/www/client.desertcitystays.com/smoobu/functions.php on line 36
+[25-Dec-2022 20:53:53 Asia/Dubai] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/client.desertcitystays.com/smoobu/connect-smoobu.php on line 27
+[25-Dec-2022 20:53:57 Asia/Dubai] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/client.desertcitystays.com/smoobu/connect-smoobu.php on line 27
+[25-Dec-2022 20:55:01 Asia/Dubai] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/client.desertcitystays.com/smoobu/connect-smoobu.php on line 28
+[25-Dec-2022 20:55:03 Asia/Dubai] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/client.desertcitystays.com/smoobu/connect-smoobu.php on line 28
+[25-Dec-2022 20:55:37 Asia/Dubai] PHP Notice:  Undefined variable: today_date_to in /home/customer/www/client.desertcitystays.com/smoobu/connect-smoobu.php on line 11
+[25-Dec-2022 20:55:49 Asia/Dubai] PHP Notice:  Undefined variable: today_date_to in /home/customer/www/client.desertcitystays.com/smoobu/connect-smoobu.php on line 11
+[25-Dec-2022 22:16:43 Asia/Dubai] PHP Fatal error:  Uncaught Error: Only variables can be passed by reference in /home/customer/www/client.desertcitystays.com/smoobu/functions.php:36
+Stack trace:
+#0 /home/customer/www/client.desertcitystays.com/smoobu/connect-smoobu.php(134): save_booking_data(Object(mysqli), Array)
+#1 {main}
+  thrown in /home/customer/www/client.desertcitystays.com/smoobu/functions.php on line 36
+[25-Dec-2022 22:20:01 Asia/Dubai] PHP Fatal error:  Uncaught Error: Only variables can be passed by reference in /home/customer/www/client.desertcitystays.com/smoobu/functions.php:36
+Stack trace:
+#0 /home/customer/www/client.desertcitystays.com/smoobu/connect-smoobu.php(134): save_booking_data(Object(mysqli), Array)
+#1 {main}
+  thrown in /home/customer/www/client.desertcitystays.com/smoobu/functions.php on line 36
+[25-Dec-2022 20:04:06 UTC] PHP Parse error:  syntax error, unexpected 'Blocked' (T_STRING) in /home/customer/www/client.desertcitystays.com/smoobu/functions.php on line 436
+[26-Dec-2022 08:50:45 UTC] PHP Parse error:  syntax error, unexpected '$from' (T_VARIABLE), expecting ')' in /home/customer/www/client.desertcitystays.com/smoobu/bu-sonnect-smoobu.php on line 69
+[15-Jan-2023 10:59:47 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ';' in /home/customer/www/client.desertcitystays.com/smoobu/functions.php on line 202

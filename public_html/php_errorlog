@@ -1,0 +1,12 @@
+[08-Nov-2022 09:53:08 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/customer/www/client.desertcitystays.com/public_html/layouts/styles.php on line 3
+[24-Nov-2022 08:07:38 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/customer/www/client.desertcitystays.com/smoobu/functions.php on line 288
+[25-Nov-2022 04:38:40 UTC] PHP Parse error:  syntax error, unexpected '!', expecting '(' in /home/customer/www/client.desertcitystays.com/public_html/do_login.php on line 17
+[25-Nov-2022 04:46:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function print_array() in /home/customer/www/client.desertcitystays.com/public_html/booking-details.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/client.desertcitystays.com/public_html/booking-details.php on line 3
+[14-Dec-2022 03:38:22 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/customer/www/client.desertcitystays.com/smoobu/functions.php on line 167
+[25-Dec-2022 21:04:50 UTC] PHP Parse error:  syntax error, unexpected '8' (T_LNUMBER) in /home/customer/www/client.desertcitystays.com/smoobu/functions.php on line 218
+[25-Dec-2022 21:04:54 UTC] PHP Parse error:  syntax error, unexpected '8' (T_LNUMBER) in /home/customer/www/client.desertcitystays.com/smoobu/functions.php on line 218
+[25-Dec-2022 21:05:02 UTC] PHP Parse error:  syntax error, unexpected '8' (T_LNUMBER) in /home/customer/www/client.desertcitystays.com/smoobu/functions.php on line 218
+[27-Dec-2022 19:59:40 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/customer/www/client.desertcitystays.com/smoobu/functions.php on line 264

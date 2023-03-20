@@ -1,0 +1,29 @@
+.login-img {
+    background: none;
+}
+.btn-primary,
+.light-menu .side-menu__item.active,
+.page-item.active .page-link,
+.side-menu__item.active,
+#back-to-top,
+.side-menu__item.active:hover, 
+.side-menu__item.active:focus{
+    background: #5191FA !important;
+    
+}
+.btn-primary,
+.breadcrumb .breadcrumb-item.active,
+.light-menu .side-menu__item.active,
+.page-item.active .page-link{
+    border-color: #5191FA !important;
+}
+.breadcrumb .breadcrumb-item.active,
+.light-menu .side-menu__item:hover,
+a:hover,
+.footer a:not(.btn){
+    color: #5191FA !important;
+}
+.side-menu__item:hover .side-menu__label, 
+.side-menu__item:focus .side-menu__label{
+    color: #ffffff;
+}
