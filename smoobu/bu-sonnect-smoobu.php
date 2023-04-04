@@ -7,12 +7,10 @@
     $today_date = date('Y-m-d');
     $tomorrow_date = date("Y-m-d", strtotime('tomorrow'));
     
-    $today_date = "2023-01-26";
-    $tomorrow_date = "2023-01-27";
+    // $today_date = "2023-01-26";
+    // $tomorrow_date = "2023-01-27";
     
-    $url = "https://login.smoobu.com/api/reservations?created_from=$today_date&created_to=$tomorrow_date&showCancellation=1&pageSize=100&includePriceElements=1&excludeBlocked=1";
-    
-    //$url = "https://login.smoobu.com/api/reservations?created_from=2023-02-01&created_to=2023-02-28&from=2023-02-01&to=2023-02-28&modifiedFrom=2023-02-01&modifiedTo=2023-02-28&showCancellation=1&pageSize=100&includePriceElements=1&excludeBlocked=1&page=1";
+    $url = "https://login.smoobu.com/api/reservations?created_from=2023-02-01&created_to=2023-03-31&from=2023-02-01&to=2023-04-01&modifiedFrom=2023-02-01&modifiedTo=2023-03-31&showCancellation=1&pageSize=100&includePriceElements=1&excludeBlocked=1&page=1";
 
     $ch = curl_init($url);
 
@@ -83,10 +81,8 @@
         $i++;
     }
 
-    //print_array($booking_data);
-    
     save_booking_data($conn, $booking_object);
 
-    $booking_details_for_email = get_booking_details_for_email($conn);
+    //$booking_details_for_email = get_booking_details_for_email($conn);
 
-    send_booking_email_to_landlord($conn, $booking_details_for_email);
+    //send_booking_email_to_landlord($conn, $booking_details_for_email);
