@@ -7,10 +7,10 @@
     $today_date = date('Y-m-d');
     $tomorrow_date = date("Y-m-d", strtotime('tomorrow'));
     
-    // $today_date = "2023-01-26";
-    // $tomorrow_date = "2023-01-27";
+    $from_date = "2023-03-31";
+    $to_date = "2023-04-30";
     
-    $url = "https://login.smoobu.com/api/reservations?created_from=2023-02-01&created_to=2023-03-31&from=2023-02-01&to=2023-04-01&modifiedFrom=2023-02-01&modifiedTo=2023-03-31&showCancellation=1&pageSize=100&includePriceElements=1&excludeBlocked=1&page=1";
+    $url = "https://login.smoobu.com/api/reservations?created_from=$from_date&created_to=$to_date&from=$from_date&to=$to_date&modifiedFrom=$from_date&modifiedTo=$to_date&showCancellation=1&pageSize=100&includePriceElements=1&excludeBlocked=1&page=1";
 
     $ch = curl_init($url);
 
