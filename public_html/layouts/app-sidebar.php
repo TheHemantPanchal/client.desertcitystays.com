@@ -20,18 +20,9 @@
                     <h3></h3>
                 </li>
                 <li class="slide">
-                    <a class="side-menu__item" data-bs-toggle="slide" href="home.php">
-                        <i class="side-menu__icon fe fe-home"></i><span class="side-menu__label">Dashboard</span></a>
-                </li>
-                <li class="slide">
                     <a class="side-menu__item" data-bs-toggle="slide" href="booking-details.php">
                         <i class="side-menu__icon fe fe-list"></i><span class="side-menu__label">Booking Details</span></a>
-                </li>                
-                <li class="slide">
-                    <a class="side-menu__item" data-bs-toggle="slide" href="property-details.php">
-                        <i class="side-menu__icon zmdi zmdi-city-alt"></i>
-                        <span class="side-menu__label">Property Details</span></a>
-                </li>                                
+                </li>                                               
             </ul>
             <div class="slide-right" id="slide-right"><svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191"
                     width="24" height="24" viewBox="0 0 24 24">
